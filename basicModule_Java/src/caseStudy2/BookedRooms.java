@@ -48,7 +48,7 @@ public class BookedRooms
 
 	
     	do {
-	System.out.println("\n        MENU");
+	System.out.println("\n          MENU");
 	System.out.println("1.BOOK");
 	System.out.println("2.Check_Status");
 	System.out.println("3.Exit");
