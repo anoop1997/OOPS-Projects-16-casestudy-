@@ -7,12 +7,12 @@ import java.io.InputStreamReader;
 
 public class Combination 
 {
-	public static int factorial(int c)
+	public static long factorial(long r)
 	{
-		int fact=1;
-        for(int i=c;i>1;i--)
+		long fact=1;
+        for(int i=(int) r;i>1;i--)
         {
-        	fact=fact*c;
+        	fact=fact*r;
         }
 		
 		return fact;
@@ -21,7 +21,7 @@ public class Combination
 	public static void main(String[] arg) throws IOException
 	{
 		BufferedReader br= new BufferedReader (new InputStreamReader(System.in));
-		int n,r,combination;
+		long n,r,combination;
 		System.out.println("enter the value of n:");
 		n=Integer.parseInt(br.readLine());
 		System.out.println("enter the value of r:");
