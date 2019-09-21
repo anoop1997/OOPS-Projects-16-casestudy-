@@ -40,7 +40,7 @@ public class EmailUpdater
 			
 			 x =br.readLine();
 			 
-			 if(x.compareTo("N")==0)
+			 if(x.compareTo("Y")==0)
 			 { 
 					System.out.print("\n Thank you \n");
 			
@@ -52,11 +52,10 @@ public class EmailUpdater
 			 System.out.print("\nproofid  :" +proofID);
 			 
 			 
-			 
 			 break;
 			 }
 			 
-			 if(x.compareTo("Y")==0);
+			 if(x.compareTo("N")==0);
 				
 				System.out.println("Do you want to edit your mail ?(y/n):");
 				
